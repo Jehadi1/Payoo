@@ -6,8 +6,14 @@ document.getElementById('btn-log')
             // console.log('This is Me')
 
             const phnNum = document.getElementById('phn-num').value; 
-            console.log(phnNum);
+            const pinNum = document.getElementById('pin-num').value; 
+            // console.log(phnNum, pinNum);
 
-            const phnNumber = document.getElementById('phn-number').value; 
-            console.log(phnNumber);
+            if(phnNum === '017' && pinNum === '1234'){
+                console.log('You are login')
+                window.location.href = './home.html'
+            }
+            else{
+                alert('Worng Number and pin')
+            }
         })
