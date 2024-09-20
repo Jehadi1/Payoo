@@ -4,17 +4,17 @@ document.getElementById('add-money-btn')
 
 
             const addAmount = document.getElementById('add-amount').value
-            console.log(typeof addAmount); 
+            // console.log(typeof addAmount); 
 
             const addPin = document.getElementById('add-pin').value
-            console.log(typeof addPin);
+            // console.log(typeof addPin);
 
 
             if(addPin === '1234'){
-                console.log(typeof'added Money')
+                // console.log(typeof'added Money')
 
                 const balance = document.getElementById('current-amount').innerText
-                console.log(balance)
+                // console.log(balance)
 
                 const addMoneyNumber = parseFloat(addAmount);
                 const balanceNumber  = parseFloat(balance);
